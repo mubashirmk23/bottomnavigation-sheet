@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bottomsheet_/bottom_navigation_sheet.dart';
+import 'package:flutter_bottomsheet_/bottom_model_sheet.dart';
+import 'package:flutter_bottomsheet_/boxalert.dart';
+import 'package:flutter_bottomsheet_/custom.dart';
 import 'package:flutter_bottomsheet_/simple_alert.dart';
 import 'package:flutter_bottomsheet_/snackbar.dart';
 
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SimpleAlert(),
+      home: BottomNavigationSheet(),
     );
   }
 }
